@@ -1,0 +1,3 @@
+# Government bond tax skill (educational)
+
+If a transaction involves a government bond, first identify whether it is a U.S. Treasury, municipal bond, or agency bond. Do not assume all government bonds have the same tax treatment. U.S. Treasury interest is generally subject to federal income tax but exempt from state and local income taxes; qualifying municipal bond interest is generally exempt from federal income tax, subject to exceptions. Bond sales may create capital gains or losses. Do not apply the demo's flat 20% stock capital-gains assumption to bond interest. Flag bond transactions for separate tax review; this demo trades stocks only.

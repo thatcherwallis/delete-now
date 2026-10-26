@@ -1,0 +1,15 @@
+{
+  "name": "Multiagent Trading Demo",
+  "image": "mcr.microsoft.com/devcontainers/python:3.12",
+  "postCreateCommand": "pip install --user -r requirements.txt",
+  "postStartCommand": "nohup python app.py > /tmp/trading-demo.log 2>&1 &",
+  "forwardPorts": [
+    7860
+  ],
+  "portsAttributes": {
+    "7860": {
+      "label": "Gradio chatbot",
+      "onAutoForward": "openBrowser"
+    }
+  }
+}
